@@ -1,0 +1,49 @@
+# Datos (no subir al repositorio — archivos pesados)
+data/
+*.csv
+*.xlsx
+*.zip
+
+# Archivos de texto de datos (excepto requirements.txt)
+outputs/datos/
+
+# Outputs generados
+outputs/figuras/*.png
+outputs/figuras/*.gif
+outputs/animaciones/*.gif
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Variables de entorno
+.env
+.env.local
